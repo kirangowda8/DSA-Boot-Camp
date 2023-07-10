@@ -1,0 +1,5 @@
+package com.micro1service.user.service.exceptionhandler;
+
+public class ResourceNotFoundException extends Exception {
+
+}

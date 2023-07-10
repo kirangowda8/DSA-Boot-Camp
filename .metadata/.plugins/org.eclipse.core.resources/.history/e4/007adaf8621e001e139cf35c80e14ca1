@@ -1,0 +1,54 @@
+package com.micro1service.user.service.impl;
+
+import java.util.List;
+import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+
+import com.micro1service.user.service.entity.User;
+import com.micro1service.user.service.exceptionhandler.ResourceNotFoundException;
+import com.micro1service.user.service.repository.UserRepository;
+import com.micro1service.user.service.service.UserService;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	private final UserRepository userRepository;
+
+	public UserServiceImpl(UserRepository userRepo) {
+		this.userRepository = userRepo;
+	}
+
+	@Override
+	public User save(User user) {
+		user.setUserId(UUID.randomUUID().toString());
+		return userRepository.save(user);
+
+	}
+
+	@Override
+	public List<User> gelAll() {
+
+		return userRepository.findAll();
+	}
+
+	@Override
+	public User getByUserId(String id) throws ResourceNotFoundException {
+		User user = userRepository.findById(id).get();
+		return user;
+	}
+
+	@Override
+	public User Update(String id,User user1) throws ResourceNotFoundException {
+		User user = userRepository.findById(id).get();
+		  userRepository.save(user1);
+		return null;
+	}
+
+	@Override
+	public User Delete(String id) throws ResourceNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

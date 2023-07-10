@@ -1,0 +1,6 @@
+server:
+       port :8082
+       
+ spring: 
+        datasource:
+                   url:postgressql://localhost:5432/postgres

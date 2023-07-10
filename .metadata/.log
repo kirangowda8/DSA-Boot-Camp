@@ -1,0 +1,635 @@
+!SESSION 2023-07-10 21:32:24.053 -----------------------------------------------
+eclipse.buildId=4.16.1.202210240748
+java.version=17.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+This is a continuation of log file C:\Users\Del\work\MicroServices\.metadata\.bak_8.log
+Created Time: 2023-07-10 23:27:12.395
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:12.395
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-10 23:27:12.790
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:12.791
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:12.791
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:12.792
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-10 23:27:14.313
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:14.314
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:14.314
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:14.314
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-10 23:27:15.680
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:15.680
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:15.681
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:15.681
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-10 23:27:15.999
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:16.001
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:16.002
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:16.002
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-10 23:27:17.118
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:17.119
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:17.119
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:17.120
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-10 23:27:23.121
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:23.121
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:23.122
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more
+
+!ENTRY org.eclipse.jface.text 4 0 2023-07-10 23:27:23.122
+!MESSAGE java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+!STACK 0
+java.util.concurrent.CompletionException: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.NoClassDefFoundError: org/eclipse/lsp4j/jsonrpc/services/ServiceEndpoints
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.getSupportedMethods(Launcher.java:404)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.createJsonHandler(Launcher.java:335)
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:319)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:280)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4j.jsonrpc.services.ServiceEndpoints cannot be found by org.eclipse.lsp4j.jsonrpc_0.17.0.v20221018-2208
+	... 13 more

@@ -1,0 +1,15 @@
+package com.micro1service.rating.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.micro1service.rating.repository.RatingRepository;
+import com.micro1service.rating.service.RatingService;
+
+@Service
+public class RatingServiceImpl implements RatingService {
+	
+	@Autowired
+	private RatingRepository ratingRepository;
+
+}

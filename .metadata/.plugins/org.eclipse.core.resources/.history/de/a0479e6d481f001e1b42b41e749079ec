@@ -1,0 +1,5 @@
+package com.micro1service.rating.entity;
+
+public class Rating {
+
+}

@@ -1,0 +1,12 @@
+package com.micro1service.hotel.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+t
+@RestController
+@RequestMapping("api/hotel-service")
+public class HotelController {
+
+	
+}
+

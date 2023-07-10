@@ -1,0 +1,56 @@
+package com.micro1service.user.service.exceptionhandler;
+
+import java.util.Date;
+
+import org.springframework.http.HttpStatus;
+
+import lombok.Builder;
+@Builder
+public class ErrorResponse {
+
+	private Date timeStamp;
+	private String message;
+	private HttpStatus status;
+	private String details;
+	
+	
+	
+	public ErrorResponse(Date timeStamp, String message, HttpStatus httpStatus, String details) {
+		super();
+		this.timeStamp = timeStamp;
+		this.message = message;
+		this.status = httpStatus;
+		this.details = details;
+	}
+	public ErrorResponse() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public String getDetails() {
+		return details;
+	}
+	public void setDetails(String details) {
+		this.details = details;
+	}
+	public java.util.Date getTimeStamp() {
+		return timeStamp;
+	}
+	public void setTimeStamp(java.util.Date timeStamp) {
+		this.timeStamp = timeStamp;
+	}
+	
+	
+
+}

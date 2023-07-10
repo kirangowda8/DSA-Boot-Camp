@@ -1,0 +1,5 @@
+package com.micro1service.user.service.repository;
+
+public class UserRepository {
+
+}

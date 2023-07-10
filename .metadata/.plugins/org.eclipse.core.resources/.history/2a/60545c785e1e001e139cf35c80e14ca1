@@ -1,0 +1,50 @@
+package com.micro1service.user.service.exceptionhandler;
+
+import java.util.Date;
+
+public class ErrorResponse {
+
+	private Date timeStamp;
+	private String message;
+	private String status;
+	private String details;
+	
+	public ErrorResponse(String message, String status, String details, Date timeStamp) {
+		super();
+		this.message = message;
+		this.status = status;
+		this.details = details;
+		this.timeStamp = timeStamp;
+	}
+	public ErrorResponse() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public String getDetails() {
+		return details;
+	}
+	public void setDetails(String details) {
+		this.details = details;
+	}
+	public java.util.Date getTimeStamp() {
+		return timeStamp;
+	}
+	public void setTimeStamp(java.util.Date timeStamp) {
+		this.timeStamp = timeStamp;
+	}
+	
+	
+
+}

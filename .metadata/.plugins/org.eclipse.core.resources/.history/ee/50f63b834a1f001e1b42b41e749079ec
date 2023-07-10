@@ -1,0 +1,14 @@
+package com.micro1service.rating.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.micro1service.rating.service.RatingService;
+
+@RestController
+public class RatingController {
+	
+	@Autowired
+	private RatingService ratingService;
+
+}

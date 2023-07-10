@@ -1,0 +1,5 @@
+package com.micro1service.hotel.impl;
+
+public class HotelServiceImpl {
+
+}

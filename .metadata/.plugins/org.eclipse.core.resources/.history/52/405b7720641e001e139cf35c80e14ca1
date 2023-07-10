@@ -1,0 +1,18 @@
+package com.micro1service.user.service.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.micro1service.user.service.service.UserService;
+
+@RestController
+public class UserController {
+
+	private final UserService userService;
+
+	public UserController(UserService userSer) {
+		this.userService = userSer;
+	}
+	
+	
+}

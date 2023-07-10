@@ -1,0 +1,15 @@
+package com.micro1service.hotel.service.entity;
+
+import jakarta.persistence.Id;
+
+public class Hotel {
+
+	@Id
+	private String hotelId;
+	
+	private String name;
+	
+	private String location;
+	
+	private String about;
+}
