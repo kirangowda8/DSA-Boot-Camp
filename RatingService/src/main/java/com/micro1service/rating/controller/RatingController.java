@@ -32,13 +32,13 @@ public class RatingController {
 		return ratingService.getAllRatings();
 	}
 
-	@GetMapping("/{userId}")
+	@GetMapping("get/{userId}")
 	public List<Rating> getByUsreId(@PathVariable String userId) {
 		return ratingService.getByUserId(userId);
 
 	}
 
-	@GetMapping("/{hotelId}")
+	@GetMapping("/get/{hotelId}")
 	public List<Rating> getByHotelId(@PathVariable String hotelId) {
 		return ratingService.getByHotelId(hotelId);
 	}
