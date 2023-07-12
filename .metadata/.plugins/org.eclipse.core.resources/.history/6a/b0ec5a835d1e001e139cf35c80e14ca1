@@ -1,5 +1,0 @@
-package com.micro1service.user.service.exceptionhandler;
-
-public class GlobalExceptionHandler {
-
-}

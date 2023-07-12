@@ -1,5 +1,0 @@
-package com.micro1service.user.service.impl;
-
-public class UserServiceImpl {
-
-}
